@@ -1,1 +1,14 @@
 c:\users\amani\documents\visual studio 2015\Projects\GESTION_CHAMBRE_HOTEL\GESTION_CHAMBRE_HOTEL\bin\Debug\GESTION_CHAMBRE_HOTEL.exe.config
+C:\Users\AMANI\documents\visual studio 2015\Projects\GESTION_CHAMBRE_HOTEL\GESTION_CHAMBRE_HOTEL\bin\Debug\GESTION_CHAMBRE_HOTEL.exe
+C:\Users\AMANI\documents\visual studio 2015\Projects\GESTION_CHAMBRE_HOTEL\GESTION_CHAMBRE_HOTEL\bin\Debug\GESTION_CHAMBRE_HOTEL.pdb
+C:\Users\AMANI\documents\visual studio 2015\Projects\GESTION_CHAMBRE_HOTEL\GESTION_CHAMBRE_HOTEL\obj\Debug\GESTION_CHAMBRE_HOTEL.csprojResolveAssemblyReference.cache
+C:\Users\AMANI\documents\visual studio 2015\Projects\GESTION_CHAMBRE_HOTEL\GESTION_CHAMBRE_HOTEL\obj\Debug\GESTION_CHAMBRE_HOTEL.Properties.Resources.resources
+C:\Users\AMANI\documents\visual studio 2015\Projects\GESTION_CHAMBRE_HOTEL\GESTION_CHAMBRE_HOTEL\obj\Debug\GESTION_CHAMBRE_HOTEL.csproj.GenerateResource.Cache
+C:\Users\AMANI\documents\visual studio 2015\Projects\GESTION_CHAMBRE_HOTEL\GESTION_CHAMBRE_HOTEL\obj\Debug\GESTION_CHAMBRE_HOTEL.exe
+C:\Users\AMANI\documents\visual studio 2015\Projects\GESTION_CHAMBRE_HOTEL\GESTION_CHAMBRE_HOTEL\obj\Debug\GESTION_CHAMBRE_HOTEL.pdb
+C:\Users\AMANI\documents\visual studio 2015\Projects\GESTION_CHAMBRE_HOTEL\GESTION_CHAMBRE_HOTEL\obj\Debug\GESTION_CHAMBRE_HOTEL.Form1.resources
+C:\Users\AMANI\documents\visual studio 2015\Projects\GESTION_CHAMBRE_HOTEL\GESTION_CHAMBRE_HOTEL\obj\Debug\GESTION_CHAMBRE_HOTEL.Formulaires.FrmCategorisation.resources
+C:\Users\AMANI\documents\visual studio 2015\Projects\GESTION_CHAMBRE_HOTEL\GESTION_CHAMBRE_HOTEL\obj\Debug\GESTION_CHAMBRE_HOTEL.Formulaires.FrmClasse.resources
+C:\Users\AMANI\documents\visual studio 2015\Projects\GESTION_CHAMBRE_HOTEL\GESTION_CHAMBRE_HOTEL\obj\Debug\GESTION_CHAMBRE_HOTEL.Formulaires.FrmClient.resources
+C:\Users\AMANI\documents\visual studio 2015\Projects\GESTION_CHAMBRE_HOTEL\GESTION_CHAMBRE_HOTEL\obj\Debug\GESTION_CHAMBRE_HOTEL.Formulaires.FrmReservation.resources
+C:\Users\AMANI\documents\visual studio 2015\Projects\GESTION_CHAMBRE_HOTEL\GESTION_CHAMBRE_HOTEL\obj\Debug\GESTION_CHAMBRE_HOTEL.Formulaires.FrmChambre.resources

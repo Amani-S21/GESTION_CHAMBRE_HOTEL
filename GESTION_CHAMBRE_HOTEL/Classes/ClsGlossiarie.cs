@@ -39,15 +39,15 @@ namespace GESTION_CHAMBRE_HOTEL.Classes
             }
         }
 
-        public void UpdateCategorisation(ClsCategorisation categ)
+        public void InsertUpdateCategorisation(ClsCategorisation categ)
         {
             try
             {
                 InitialiseConnect();
                 connexion.Open();
-                commande = new SqlCommand("exec SaveCategorisation @id, @categorie ", connexion);
+                commande = new SqlCommand("exec SaveCategorisation @id, @designation ", connexion);
                 commande.Parameters.AddWithValue("@id", categ.Id1);
-                commande.Parameters.AddWithValue("@categorie", categ.Designation1);
+                commande.Parameters.AddWithValue("@designation", categ.Designation1);
                 commande.ExecuteNonQuery();
                 connexion.Close();
             }
@@ -57,7 +57,7 @@ namespace GESTION_CHAMBRE_HOTEL.Classes
             }
         }
 
-        public void UpdateClasse(ClsClasse clas)
+        public void InsertUpdateClasse(ClsClasse clas)
         {
             try
             {
@@ -67,6 +67,68 @@ namespace GESTION_CHAMBRE_HOTEL.Classes
                 commande.Parameters.AddWithValue("@id", clas.Id1);
                 commande.Parameters.AddWithValue("@designation", clas.Designation1);
                 commande.Parameters.AddWithValue("@prix", clas.Prix1);
+                commande.ExecuteNonQuery();
+                connexion.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        public void InsertUpdateClient(ClsClient cli)
+        {
+            try
+            {
+                InitialiseConnect();
+                connexion.Open();
+                commande = new SqlCommand("exec SaveClient @id, @nom, @adresse, @contact, @refcategorie ", connexion);
+                commande.Parameters.AddWithValue("@id", cli.Id1);
+                commande.Parameters.AddWithValue("@nom", cli.Nom1);
+                commande.Parameters.AddWithValue("@adresse", cli.Adresse1);
+                commande.Parameters.AddWithValue("@contact", cli.Contact1);
+                commande.Parameters.AddWithValue("@refcategorie", cli.RefCategorisation1);
+                commande.ExecuteNonQuery();
+                connexion.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        public void InsertUpdateChambre(ClsChambre cha)
+        {
+            try
+            {
+                InitialiseConnect();
+                connexion.Open();
+                commande = new SqlCommand("exec SaveChambre @id, @numero, @contact, @refclasse ", connexion);
+                commande.Parameters.AddWithValue("@id", cha.Id1);
+                commande.Parameters.AddWithValue("@numero", cha.Numero1);
+                commande.Parameters.AddWithValue("@contact", cha.Contact1);
+                commande.Parameters.AddWithValue("@refclasse", cha.RefClasse1);
+                commande.ExecuteNonQuery();
+                connexion.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        public void InsertUpdateReservation(ClsReservation res)
+        {
+            try
+            {
+                InitialiseConnect();
+                connexion.Open();
+                commande = new SqlCommand("exec SaveReservation @id, @refclient, @refchambre, @dateentre, @datesort ", connexion);
+                commande.Parameters.AddWithValue("@id", res.Id1);
+                commande.Parameters.AddWithValue("@refclient", res.RefClient1);
+                commande.Parameters.AddWithValue("@refchambre", res.RefChambre1);
+                commande.Parameters.AddWithValue("@dateentre", res.DateEntree1);
+                commande.Parameters.AddWithValue("@datesort", res.DateSortie1);
                 commande.ExecuteNonQuery();
                 connexion.Close();
             }
@@ -152,7 +214,6 @@ namespace GESTION_CHAMBRE_HOTEL.Classes
             {
                 MessageBox.Show(ex.Message);
             }
-
             return IdData;
         }
     }
