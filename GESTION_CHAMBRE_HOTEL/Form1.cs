@@ -47,5 +47,11 @@ namespace GESTION_CHAMBRE_HOTEL
             FrmChambre cha = new FrmChambre();
             cha.ShowDialog();
         }
+
+        private void btnQuitter_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Voulez-vous vraiment fermer cette application ?", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Close();
+        }
     }
 }

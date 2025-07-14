@@ -178,6 +178,7 @@
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.label1);
             this.Name = "FrmClasse";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmClasse";
             this.Load += new System.EventHandler(this.FrmClasse_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListe)).EndInit();

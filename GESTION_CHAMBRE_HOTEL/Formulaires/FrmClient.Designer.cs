@@ -158,11 +158,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(157, 19);
+            this.label1.Location = new System.Drawing.Point(180, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(533, 32);
+            this.label1.Size = new System.Drawing.Size(382, 32);
             this.label1.TabIndex = 22;
-            this.label1.Text = "ENREGISTREMENT CATEGORISATION";
+            this.label1.Text = "ENREGISTREMENT CLIENT";
             // 
             // label5
             // 
